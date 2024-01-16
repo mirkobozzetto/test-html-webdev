@@ -1,0 +1,5 @@
+Réaliser le site "layout.png" en HTML/CSS avec Flex ou Bootstrap.
+
+Les photos sont dans le dossier "ressources" et les textes dans le fichier "contenu.txt".
+
+Le menu du haut est fixe lorsqu'on fait défiler la page.
