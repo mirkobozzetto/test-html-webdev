@@ -70,13 +70,12 @@ body {
   text-decoration: none;
 }
 
-.icon.envelope {
-  margin-right: 2vw;
+.fb {
+  margin-right: 0.3vw;
 }
 
-.facebook .fa-facebook,
-.envelope .fa-envelope {
-  font-size: 1.2em;
+.envelope {
+  margin-right: 2vw;
 }
 
 .nav-links {
