@@ -222,12 +222,13 @@ body {
 }
 
 .projets {
+  margin-top: 8rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .top-left-presentation-projets {
-  width: 7.4vw;
+  width: 8vw;
   margin-right: 3rem;
   margin: 0 7.5rem;
   text-align: right;
@@ -244,4 +245,21 @@ body {
   font-weight: bold;
   font-size: 2rem;
   color: #25824d;
+}
+
+.grid-actu {
+  width: 100%;
+  height: 85rem;
+  margin-right: 7.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2.5rem;
+  background-color: #f54127;
+}
+
+.bloc-actu {
+  background-color: white;
+  height: 40rem;
+  width: 100%;
 }
