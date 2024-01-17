@@ -36,7 +36,6 @@ body {
   cursor: pointer;
   border-radius: 8px;
   margin-left: 7.5vw;
-  margin-right: 50vw;
 }
 
 .nav-button {
@@ -99,25 +98,59 @@ body {
 .presentation {
   display: flex;
   flex-direction: column;
-  margin: 0 7.5rem;
 }
 
 .presentation__main {
   margin-top: 5rem;
+  /* margin: 0 7.5rem; */
 }
 
 .presentation__main--title {
-  height: 10rem;
+  height: 30vh;
+  margin: 0 7.5rem;
   display: flex;
 }
 
 .top-left-presentation {
-  width: 15vw;
+  width: 25vw;
   margin-right: 3rem;
+  margin: 0 7.5rem;
 }
 
 .styled-text__presentation {
   font-family: "DancingScript", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: right;
+}
+
+.sub-presentation {
+  text-align: right;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #25824d;
+}
+
+.top-right-presentation {
+  width: 100%;
+}
+
+.top-right-presentation {
+  font-size: 1.7rem;
+}
+
+.CTA-link {
+  margin-top: 8rem;
+  color: #f54127;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.presentation__CTA {
+  background: #25824d;
+  color: white;
+  margin-top: 12rem;
+  display: flex;
+  padding: 0 7.5rem;
+  padding-top: 5rem;
 }
