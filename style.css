@@ -126,16 +126,13 @@ body {
 .sub-presentation {
   text-align: right;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: #25824d;
 }
 
 .top-right-presentation {
   width: 100%;
-}
-
-.top-right-presentation {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .CTA-link {
@@ -144,6 +141,7 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: flex-end;
+  font-style: italic;
 }
 
 .presentation__CTA {
@@ -212,7 +210,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  gap: 1.5rem;
   width: 44%;
   /* margin-right: 7.5rem; */
 }
@@ -221,4 +219,29 @@ body {
   width: 100%; /* Largeur de chaque photo */
   height: auto; /* Hauteur ajustée automatiquement */
   object-fit: cover;
+}
+
+.projets {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-left-presentation-projets {
+  width: 7.4vw;
+  margin-right: 3rem;
+  margin: 0 7.5rem;
+  text-align: right;
+}
+
+.styled-text__presentation-projets {
+  font-family: "DancingScript", sans-serif;
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+.sub-presentation-projets {
+  text-align: right;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #25824d;
 }
