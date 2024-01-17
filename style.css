@@ -152,14 +152,17 @@ body {
   width: 100%;
   color: white;
   margin-top: 12rem;
-  /* display: flex; */
+  display: flex;
   padding: 0 7.5rem;
   padding-top: 5rem;
-  padding-bottom: 100vh;
+  padding-bottom: 20rem;
+  flex-direction: row;
 }
 
 .presentation__CTA--flex {
   display: flex;
+  flex-direction: column;
+  width: 27vw;
 }
 
 .img-container {
