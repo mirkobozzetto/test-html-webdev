@@ -101,7 +101,7 @@ body {
 }
 
 .presentation__main {
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   /* margin: 0 7.5rem; */
 }
 
@@ -112,27 +112,27 @@ body {
 }
 
 .top-left-presentation {
-  width: 25vw;
+  width: 15vw;
   margin-right: 3rem;
   margin: 0 7.5rem;
 }
 
 .styled-text__presentation {
   font-family: "DancingScript", sans-serif;
-  font-size: 3rem;
+  font-size: 2.2rem;
   text-align: right;
 }
 
 .sub-presentation {
   text-align: right;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #25824d;
 }
 
 .top-right-presentation {
   width: 100%;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 
 .CTA-link {
@@ -148,7 +148,7 @@ body {
   background: #25824d;
   width: 100%;
   color: white;
-  margin-top: 10rem;
+  margin-top: 7.5rem;
   display: flex;
   padding: 0 7.5rem;
   padding-top: 5rem;
@@ -281,4 +281,20 @@ body {
   margin-top: 3rem;
   display: block;
   text-align: right;
+}
+
+.link-autres {
+  text-decoration: none;
+  color: #f54127;
+  font-style: italic;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  display: block;
+  text-align: right;
+}
+
+.footer {
+  background-color: #25824d;
+  height: 22vh;
+  width: 100vw;
 }
