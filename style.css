@@ -212,12 +212,11 @@ body {
   grid-template-rows: repeat(3, 1fr);
   gap: 1.5rem;
   width: 44%;
-  /* margin-right: 7.5rem; */
 }
 
 .imgs-CTA-grid {
-  width: 100%; /* Largeur de chaque photo */
-  height: auto; /* Hauteur ajustée automatiquement */
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -249,17 +248,37 @@ body {
 
 .grid-actu {
   width: 100%;
-  height: 85rem;
   margin-right: 7.5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 2.5rem;
-  background-color: #f54127;
+  gap: 2vw;
 }
 
 .bloc-actu {
-  background-color: white;
-  height: 40rem;
+  position: relative;
   width: 100%;
+}
+
+.actu-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.head-actu-date {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.actu-txt {
+  margin-top: 2rem;
+}
+
+.link-actu {
+  text-decoration: none;
+  color: #25824d;
+  font-style: italic;
+  margin-top: 3rem;
+  display: block;
+  text-align: right;
 }
